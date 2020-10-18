@@ -113,6 +113,7 @@
 #define _IRR_MATERIAL_MAX_TEXTURES_ 8
 
 //! Whether to support XML and XML-based formats (irrmesh, collada...)
+#define NO_IRR_COMPILE_WITH_XML_ // GONG
 #define _IRR_COMPILE_WITH_XML_
 #ifdef NO_IRR_COMPILE_WITH_XML_
 #undef _IRR_COMPILE_WITH_XML_
@@ -130,6 +131,7 @@
 This define is about the engine creating profile data
 while it runs and enabling it will slow down the engine. */
 //#define _IRR_COMPILE_WITH_PROFILING_
+#define NO_IRR_COMPILE_WITH_PROFILING_ // GONG: yo no need for profiling
 #ifdef NO_IRR_COMPILE_WITH_PROFILING_
 #undef _IRR_COMPILE_WITH_PROFILING_
 #endif
@@ -158,10 +160,14 @@ If not defined, Windows Multimedia library is used, which offers also broad supp
 #endif
 
 //! enabled Direct3D 9
+#define NO_IRR_COMPILE_WITH_DIRECT3D_9_ // GONG
 #define _IRR_COMPILE_WITH_DIRECT3D_9_
 #ifdef NO_IRR_COMPILE_WITH_DIRECT3D_9_
 #undef _IRR_COMPILE_WITH_DIRECT3D_9_
 #endif
+
+// GONG: https://stackoverflow.com/questions/22303824/warning-c4996-getversionexw-was-declared-deprecated
+#pragma warning(disable : 4996)
 
 #endif
 
@@ -259,7 +265,9 @@ you will not be able to use anything provided by the GUI Environment, including 
 disable this feature, the engine behave as before (ansi). This is currently only supported
 for Windows based systems. You also have to set #define UNICODE for this to compile.
 */
-//#define _IRR_WCHAR_FILESYSTEM
+
+// GONG: yes we need this
+#define _IRR_WCHAR_FILESYSTEM
 #ifdef NO_IRR_WCHAR_FILESYSTEM
 #undef _IRR_WCHAR_FILESYSTEM
 #endif
@@ -706,6 +714,7 @@ ones. */
 /** bzip2 is superior to the original zip file compression modes, but requires
 a certain amount of memory for decompression and adds several files to the
 library. */
+#define NO_IRR_COMPILE_WITH_BZIP2_ // GONG YO
 #define _IRR_COMPILE_WITH_BZIP2_
 #ifdef NO_IRR_COMPILE_WITH_BZIP2_
 #undef _IRR_COMPILE_WITH_BZIP2_

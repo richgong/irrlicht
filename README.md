@@ -1,8 +1,25 @@
 # What is this?
 
+UPDATE: After messing around for few hours, I think it's much better to use CodeBlocks instead of VisualStudio. So disregard this repo.
+
+...
+
 This is a fork of the original Irrlicht engine, available here: https://sourceforge.net/projects/irrlicht/
 
+I'm trying to get this running in Visual Studio 2019.
 
+Please add to your Preprocessor definitions:
+```
+_IRR_STATIC_LIB_;_CRT_SECURE_NO_WARNINGS;
+```
+
+Add to your Include directories:
+
+```
+<path>\irrlicht\include
+```
+
+Please install Zlib (download zip files of both source and binaries): http://gnuwin32.sourceforge.net/packages/zlib.htm
 
 ## The Irrlicht Engine SDK version 1.9
 
