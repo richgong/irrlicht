@@ -161,67 +161,67 @@ This is a fork of the original Irrlicht engine, available here: https://sourcefo
   by other people. Especially: (There are probably more people, sorry if I forgot one.
   See http://irrlicht.sourceforge.net/author.html for more informations)
 
-  Christian Stehno (hybrid)   Contribution Coordinator/Developer
-  Michael Zeilfelder (cutealien) Developer
-  Patryk Nadrowski (Nadro)    Developer  
-  Yoran Bosman (Yoran)        Webserver administrator
-  Gareth Davidson (bitplane)  Developer/ Forum admin
-  Thomas Alten (burningwater) Wrote the burningsvideo software rasterizer
-  Luke P. Hoschke (luke)      Wrote the b3d loader, the new animation system, VBOs and other things
-  Colin MacDonald (rogerborg) All hands person
-  Ahmed Hilali (blindside)    The shader and advanced effects man
-  Dean Wadsworth (varmint)    OSX port maintainer and game developer
-  Alvaro F. Celis (afecelis)  Lots of work in the community, for example video tutorials about Irrlicht, forum admin
-  John Goewert (Saigumi)      Wrote some tutorials for the Irrlicht Engine and doing admin stuff
-  Jam                         Takes care of moderating the forums and keeps them clean from those evil spammers.
+-  Christian Stehno (hybrid)   Contribution Coordinator/Developer
+-  Michael Zeilfelder (cutealien) Developer
+-  Patryk Nadrowski (Nadro)    Developer  
+-  Yoran Bosman (Yoran)        Webserver administrator
+-  Gareth Davidson (bitplane)  Developer/ Forum admin
+-  Thomas Alten (burningwater) Wrote the burningsvideo software rasterizer
+-  Luke P. Hoschke (luke)      Wrote the b3d loader, the new animation system, VBOs and other things
+-  Colin MacDonald (rogerborg) All hands person
+-  Ahmed Hilali (blindside)    The shader and advanced effects man
+-  Dean Wadsworth (varmint)    OSX port maintainer and game developer
+-  Alvaro F. Celis (afecelis)  Lots of work in the community, for example video tutorials about Irrlicht, forum admin
+-  John Goewert (Saigumi)      Wrote some tutorials for the Irrlicht Engine and doing admin stuff
+-  Jam                         Takes care of moderating the forums and keeps them clean from those evil spammers.
 
-  Many others (this list hasn't been updated in a while, but they are often mentioned in changes.txt)
-  Etienne Petitjean wrote the MacPort of the engine
-  Mark Jeacocke	Wrote lots of helpful comments and ideas in the forums and per email.
-  Julio Gorg�	Created the 'Unofficial DirectX 9.0 Driver for the Irrlicht Engine'
-  Andy Spurgeon	Wrote the Dev-Cpp tutorial.
-  Andr� Simon	Wrote the Codewarrior tutorial.
-  KnightToFlight	Created the unoffical terrain renderer addon for the Irrlicht Engine.
-  Jon Pry	Wrote the code to load compressed TGA files.
-  Matthew Couch	Wrote the tokamak integration tutorial.
-  Max Winkel	Wrote the splitscreen tutorial.
-  Gorgon Zola	Wrote the ODE integration tutorial.
-  Dean P. Macri	Sent in code for curved surfaces and PCX Loading.
-  Sirshane	Made several bug fixes, sent in code for making the mouse cursor invisible in Linux.
-  Matthias Gall	Sent in code for a spline scene node animator and reported lots of bugs.
-  Mario Gruber	Suggested triangle fan drawing and sent in code for this.
-  Ariaci	Spotted out a bug in the ATI driver.
-  Dr Andros C Bragianos	Improved texture mapping in cube scene node.
-  Philipp Dortmann	Sent in code for stencil buffer support for OpenGL.
-  Jerome Nichols	Created the Irrlicht/Ruby interface located at irr.rubyforge.org
-  Vash TheStampede	Sent code for missing Draw2DLine() implementations
-  MattyBoy	XBOX support suggestions
-  Oliver Klems	createImageFromData() method suggestion/implementation
-  Jox	really, really a lot of bug fixes, and the LMTS file loader
-  Zola	Quaternion method additions
-  Tomasz Nowakowski	various bug fixes
-  Nicholas Bray	stencil shadow bug fixes with OpenGL
-  REAPER	mouswheel events for scrollbar
-  Calimero	various bug fixes like vector2d operators
-  Haddock	bugfix in the linked list
-  G.o.D	XML parser fix
-  Erik Zilli	Translated some of the tutorials from my stuttering english into real english. :)
-  Martin Piskernig	Linux bugfixing and testing
-  Soconne	Wrote the original terrain renderer were Irrlichts terrain renderer of Irrlicht is based on it.
-  Spintz	GeoMipMap scene node, terrain renderer of Irrlicht is based on it.
-  Murphy McCauley	OCT file loader, MIM tools
-  Saurav Mohapatra	IrrCSM, and lots of addons, suggestions and bug reports
-  Zhuck Dimitry	My3D Tools
-  Terry Welsh	Allowed me to use the textures of his 'Parallax Mapping with Offset Limiting' paper for the parallax demo of Irrlicht
-  rt	Wrote the original .png loader for Irrlicht
-  Salvatore Russo	Wrote the original .dmf loader for Irrlicht
-  Vox	Various bug reports and fixes
-  atomice	Contributed code for a ms3d loader enhancement
-  William Finlayson	OpenGL RTT, GLSL support and the reflection 2 layer material for OpenGL.
-  Delight	Various code contributions for Irrlicht.NET (particle system, basic shader support and more)
-  Michael Zoech	Improved GLSL support
-  Jean-loup Gailly, Mark Adler	Created the zlib and libpng
-  Guy Eric Schalnat, Andreas Dilger, Glenn Randers-Pehrson and others	Created libpng
-  The Independent JPEG Group	Created JPEG lib
-  Dr Brian Gladman AES Created aesGladman
+Many others (this list hasn't been updated in a while, but they are often mentioned in changes.txt)
+-  Etienne Petitjean wrote the MacPort of the engine
+-  Mark Jeacocke	Wrote lots of helpful comments and ideas in the forums and per email.
+-  Julio Gorg�	Created the 'Unofficial DirectX 9.0 Driver for the Irrlicht Engine'
+-  Andy Spurgeon	Wrote the Dev-Cpp tutorial.
+-  Andr� Simon	Wrote the Codewarrior tutorial.
+-  KnightToFlight	Created the unoffical terrain renderer addon for the Irrlicht Engine.
+-  Jon Pry	Wrote the code to load compressed TGA files.
+-  Matthew Couch	Wrote the tokamak integration tutorial.
+-  Max Winkel	Wrote the splitscreen tutorial.
+-  Gorgon Zola	Wrote the ODE integration tutorial.
+-  Dean P. Macri	Sent in code for curved surfaces and PCX Loading.
+-  Sirshane	Made several bug fixes, sent in code for making the mouse cursor invisible in Linux.
+-  Matthias Gall	Sent in code for a spline scene node animator and reported lots of bugs.
+-  Mario Gruber	Suggested triangle fan drawing and sent in code for this.
+-  Ariaci	Spotted out a bug in the ATI driver.
+-  Dr Andros C Bragianos	Improved texture mapping in cube scene node.
+-  Philipp Dortmann	Sent in code for stencil buffer support for OpenGL.
+-  Jerome Nichols	Created the Irrlicht/Ruby interface located at irr.rubyforge.org
+-  Vash TheStampede	Sent code for missing Draw2DLine() implementations
+-  MattyBoy	XBOX support suggestions
+-  Oliver Klems	createImageFromData() method suggestion/implementation
+-  Jox	really, really a lot of bug fixes, and the LMTS file loader
+-  Zola	Quaternion method additions
+-  Tomasz Nowakowski	various bug fixes
+-  Nicholas Bray	stencil shadow bug fixes with OpenGL
+-  REAPER	mouswheel events for scrollbar
+-  Calimero	various bug fixes like vector2d operators
+-  Haddock	bugfix in the linked list
+-  G.o.D	XML parser fix
+-  Erik Zilli	Translated some of the tutorials from my stuttering english into real english. :)
+-  Martin Piskernig	Linux bugfixing and testing
+-  Soconne	Wrote the original terrain renderer were Irrlichts terrain renderer of Irrlicht is based on it.
+-  Spintz	GeoMipMap scene node, terrain renderer of Irrlicht is based on it.
+-  Murphy McCauley	OCT file loader, MIM tools
+-  Saurav Mohapatra	IrrCSM, and lots of addons, suggestions and bug reports
+-  Zhuck Dimitry	My3D Tools
+-  Terry Welsh	Allowed me to use the textures of his 'Parallax Mapping with Offset Limiting' paper for the parallax demo of Irrlicht
+-  rt	Wrote the original .png loader for Irrlicht
+-  Salvatore Russo	Wrote the original .dmf loader for Irrlicht
+-  Vox	Various bug reports and fixes
+-  atomice	Contributed code for a ms3d loader enhancement
+-  William Finlayson	OpenGL RTT, GLSL support and the reflection 2 layer material for OpenGL.
+-  Delight	Various code contributions for Irrlicht.NET (particle system, basic shader support and more)
+-  Michael Zoech	Improved GLSL support
+-  Jean-loup Gailly, Mark Adler	Created the zlib and libpng
+-  Guy Eric Schalnat, Andreas Dilger, Glenn Randers-Pehrson and others	Created libpng
+-  The Independent JPEG Group	Created JPEG lib
+-  Dr Brian Gladman AES Created aesGladman
   
