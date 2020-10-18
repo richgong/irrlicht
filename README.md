@@ -1,12 +1,10 @@
-= What is this?
+# What is this?
 
 This is a fork of the original Irrlicht engine, available here: https://sourceforge.net/projects/irrlicht/
 
 
 
-==========================================================================
-The Irrlicht Engine SDK version 1.9
-==========================================================================
+## The Irrlicht Engine SDK version 1.9
 
   Welcome to the Irrlicht Engine SDK.
 
@@ -20,9 +18,7 @@ The Irrlicht Engine SDK version 1.9
   6. Contact
 
 
-==========================================================================
-1. Directory Structure Overview
-==========================================================================
+### 1. Directory Structure Overview
 
   You will find some directories after uncompressing the archive of the
   SDK. These are:
@@ -45,9 +41,7 @@ The Irrlicht Engine SDK version 1.9
 
 
 
-==========================================================================
-2. How to start
-==========================================================================
+### 2. How to start
 
   To see the engine in action in Windows, just go to the \bin\Win32-VisualStudio
   directory, and start some applications. There should also be an
@@ -72,9 +66,7 @@ The Irrlicht Engine SDK version 1.9
   For OSX you can find an XCode project file in source/Irrlicht/MacOSX. This will
   build the libIrrlicht.a library necessary to create the apps.
 
-==========================================================================
-3. Requirements
-==========================================================================
+### 3. Requirements
 
   You can use one of the following compilers/IDEs to develop applications
   with Irrlicht or recompile the engine. However, other compilers/IDEs may
@@ -104,9 +96,7 @@ The Irrlicht Engine SDK version 1.9
 	* Needed: XCode and Cocoa framework
 	* Needed: OpenGL headers and libraries
 
-==========================================================================
-4. Release Notes
-==========================================================================
+### 4. Release Notes
 
   Informations about changes in this new version of the engine can be
   found in changes.txt.
@@ -114,9 +104,7 @@ The Irrlicht Engine SDK version 1.9
   Please note that the textures, 3D models and levels are copyright
   by their authors and not covered by the Irrlicht engine license.
 
-==========================================================================
-5. License
-==========================================================================
+### 5. License
 
   The license of the Irrlicht Engine is based on the zlib/libpng license.
   Even though this license does not require you to mention that you are
@@ -154,9 +142,7 @@ The Irrlicht Engine SDK version 1.9
   3. This notice may not be removed or altered from any source distribution.
 
 
-==========================================================================
-6. Contact
-==========================================================================
+### 6. Contact
 
   If you have problems, questions or suggestions, please visit the
   official homepage of the Irrlicht Engine:
