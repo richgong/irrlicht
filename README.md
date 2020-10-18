@@ -1,5 +1,9 @@
 # What is this?
 
+UPDATE: After messing around for few hours, I think it's much better to use CodeBlocks instead of VisualStudio. So disregard this repo.
+
+...
+
 This is a fork of the original Irrlicht engine, available here: https://sourceforge.net/projects/irrlicht/
 
 I'm trying to get this running in Visual Studio 2019.
