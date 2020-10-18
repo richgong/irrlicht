@@ -54,12 +54,6 @@
     <ClCompile Include="source\Irrlicht\bzip2\bzcompress.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\Irrlicht\bzip2\bzip2.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="source\Irrlicht\bzip2\bzip2recover.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="source\Irrlicht\bzip2\bzlib.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -2466,6 +2460,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="source\Irrlicht\zlib\zutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

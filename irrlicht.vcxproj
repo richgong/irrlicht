@@ -86,9 +86,9 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_IRR_STATIC_LIB_;_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\gongr\c\forks\irrlicht\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gongr\c\forks\irrlicht\include;C:\Users\gongr\c\forks\irrlicht\source\Irrlicht\zlib;C:\Users\gongr\c\forks\irrlicht\source\Irrlicht\bzip2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -153,8 +153,6 @@
     <ClCompile Include="source\Irrlicht\burning_shader_color.cpp" />
     <ClCompile Include="source\Irrlicht\bzip2\blocksort.c" />
     <ClCompile Include="source\Irrlicht\bzip2\bzcompress.c" />
-    <ClCompile Include="source\Irrlicht\bzip2\bzip2.c" />
-    <ClCompile Include="source\Irrlicht\bzip2\bzip2recover.c" />
     <ClCompile Include="source\Irrlicht\bzip2\bzlib.c" />
     <ClCompile Include="source\Irrlicht\bzip2\crctable.c" />
     <ClCompile Include="source\Irrlicht\bzip2\decompress.c" />
@@ -959,6 +957,7 @@
     <ClInclude Include="source\Irrlicht\zlib\zconf.h" />
     <ClInclude Include="source\Irrlicht\zlib\zlib.h" />
     <ClInclude Include="source\Irrlicht\zlib\zutil.h" />
+    <ClInclude Include="zlib.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="source\Irrlicht\bzip2\libbz2.def" />
