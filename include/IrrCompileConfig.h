@@ -158,6 +158,7 @@ If not defined, Windows Multimedia library is used, which offers also broad supp
 #endif
 
 //! enabled Direct3D 9
+#define NO_IRR_COMPILE_WITH_DIRECT3D_9_ // GONG: added this
 #define _IRR_COMPILE_WITH_DIRECT3D_9_
 #ifdef NO_IRR_COMPILE_WITH_DIRECT3D_9_
 #undef _IRR_COMPILE_WITH_DIRECT3D_9_
