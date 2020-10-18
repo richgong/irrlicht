@@ -609,7 +609,7 @@ B3D, MS3D or X meshes */
 // b) anyone enabling it should be aware that S3TC compression algorithm which might be used in that loader
 // is patented in the US by S3 and they do collect license fees when it's used in applications.
 // So if you are unfortunate enough to develop applications for US market and their broken patent system be careful.
-// #define _IRR_COMPILE_WITH_DDS_DECODER_LOADER_
+#define _IRR_COMPILE_WITH_DDS_DECODER_LOADER_
 #ifdef NO_IRR_COMPILE_WITH_DDS_DECODER_LOADER_
 #undef _IRR_COMPILE_WITH_DDS_DECODER_LOADER_
 #endif

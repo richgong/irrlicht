@@ -97,7 +97,7 @@ struct ddsAlphaBlock3BitLinear
 
 struct ddsColor
 {
-	u8		r, g, b, a;
+	u8 b, g, r, a;
 } PACK_STRUCT;
 
 #endif
