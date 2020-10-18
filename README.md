@@ -2,7 +2,9 @@
 
 This is a fork of the original Irrlicht engine, available here: https://sourceforge.net/projects/irrlicht/
 
+I got this working in VisualStudio 2019.
 
+My goal is to actually build this, so I can customize code for "Witcher 3D models converter". So I also incorporated the suggestions from here: https://github.com/JLouis-B/RedTools/wiki/Compilation
 
 ## The Irrlicht Engine SDK version 1.9
 
